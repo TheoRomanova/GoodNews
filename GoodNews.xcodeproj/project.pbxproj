@@ -48,10 +48,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		68BE3E6B24FEC5B700E2925B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				68C987E524F901E00027A749 /* NewsTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		68BE3E6C24FEC5D800E2925B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				68C987D724F901100027A749 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		68BE3E6D24FEC5E700E2925B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68C987DA24F901110027A749 /* Assets.xcassets */,
+				68C987DC24F901110027A749 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		68C987C524F9010F0027A749 = {
 			isa = PBXGroup;
 			children = (
 				68C987D124F901100027A749 /* AppDelegate.swift */,
+				68C987D324F901100027A749 /* SceneDelegate.swift */,
 				68C987D024F9010F0027A749 /* GoodNews */,
 				68C987CF24F9010F0027A749 /* Products */,
 				8B5FA959BBB899B634AA9BE2 /* Pods */,
@@ -73,11 +99,9 @@
 				68C987ED24F936660027A749 /* Extensions */,
 				68C987EA24F92A840027A749 /* Cells */,
 				68C987E924F91D450027A749 /* Models */,
-				68C987E524F901E00027A749 /* NewsTableViewController.swift */,
-				68C987D324F901100027A749 /* SceneDelegate.swift */,
-				68C987D724F901100027A749 /* Main.storyboard */,
-				68C987DA24F901110027A749 /* Assets.xcassets */,
-				68C987DC24F901110027A749 /* LaunchScreen.storyboard */,
+				68BE3E6B24FEC5B700E2925B /* Controllers */,
+				68BE3E6C24FEC5D800E2925B /* View */,
+				68BE3E6D24FEC5E700E2925B /* Supporting Files */,
 				68C987DF24F901110027A749 /* Info.plist */,
 			);
 			path = GoodNews;
